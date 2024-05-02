@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@1,500&family=Rye&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+  }
+  
+  body::before {
+    content: "";
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://img.freepik.com/free-vector/casino-playing-cards-with-symbols-background_1017-23143.jpg');
+    background-size: cover;
+    filter: blur(4px);
+    z-index: -1;
+  }
+h1{
+    font-size: 100px;
+    font-family: 'Rye', cursive;
+    font-weight: lighter;
+    color:goldenrod;
+    margin: 35px;
+}
+p{
+    font-size: 40px;
+    color: azure;
+    font-family: 'Poppins';
+    margin-top: 20px;
+}
+button{
+    padding: 12px;
+    font-size: 25px;
+    border: 0 solid;
+    border-radius: 15px;
+    font-family: 'Poppins';
+    background-color: goldenrod;
+    color: azure;
+    font-weight: 400;
+}
+button:active{
+    transform: scale(0.95);
+}
+
+.buttonSection{
+    display: grid;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+  
